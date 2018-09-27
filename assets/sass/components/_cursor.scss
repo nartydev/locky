@@ -1,0 +1,44 @@
+.cursor {width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: #fff;
+    z-index: 100;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    pointer-events: none;
+    transition: .1s ease;
+    position:absolute;
+    position: fixed;
+    z-index: 999999;
+    pointer-events: none;
+    -webkit-touch-callout: none;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+    mix-blend-mode: difference;
+    will-change: left, top;
+}
+
+.cursor.active {
+    height:60px;
+    width:60px;
+    margin-top:-20px;
+    margin-left:-20px;
+    border:2px solid #fff;
+    background:transparent;
+}
+
+.cursor.cursorPulse {
+    height:30px;
+    width:30px;
+    margin-top:-10px;
+    margin-left:-10px;
+    border:2px solid #fff;
+    background:transparent;
+}
+
+
