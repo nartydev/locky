@@ -1,2 +1,0 @@
-# locky
-Interactive design
